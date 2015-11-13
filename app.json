@@ -1,0 +1,7 @@
+{
+  "name": "Lightning Out Sample",
+  "description": "A simple Node.js App to Host Lightning Out",
+  "repository": "https://github.com/skipsauls/node-js-sample",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
