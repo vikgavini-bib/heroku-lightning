@@ -8,7 +8,7 @@ var force = (function () {
 
     // The login url
     //var loginUrl = 'https://login.salesforce.com',
-    var loginUrl = 'vgxred-dev-ed.my.salesforce.com',
+    var loginUrl = 'https://vgxred-dev-ed.my.salesforce.com',
 
     // The instance url, needed until pattern for my domains, etc. is determined
         instanceUrl = null,
