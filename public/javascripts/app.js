@@ -58,7 +58,7 @@ function setupLightning(callback) {
             }
         );
         },
-        'https://pocmobile-sgws.cs97.force.com',  // Community endpoint
+        'https://pocmobile-sgws.cs97.force.com/myProof',  // Community endpoint
 	 oauth.access_token
 		       
     );		
@@ -82,7 +82,7 @@ function showEA() {
             }
         );
         },
-        'https://pocmobile-sgws.cs97.force.com'  // Community endpoint
+        'https://pocmobile-sgws.cs97.force.com/myProof'  // Community endpoint
     );	
 }
 
