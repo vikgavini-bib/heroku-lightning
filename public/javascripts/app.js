@@ -1,9 +1,11 @@
 
 function forceInit() {
+	console.log('LOGIN INIT >');
 	force.init(config);
 };
 
 function forceLogin(key) {
+	console.log('LOGIN INIT KEY >'+key);
 	forceInit();
 	force.login(function(success) {
 		var oauth = force.getOauth();
@@ -16,6 +18,7 @@ var _lightningReady = false;
 function setupLightning(callback) {
 	var appName = config.loApp;
 	var oauth = force.getOauth();
+	console.log('AUTH >'+oauth);
     if (!oauth) {
         alert("Please login to Salesforce.com first!");
         return;
