@@ -1,6 +1,7 @@
 
 function forceInit() {
 	console.log('LOGIN INIT >');
+	console.log('CONFIG >'+config);
 	force.init(config);
 };
 
