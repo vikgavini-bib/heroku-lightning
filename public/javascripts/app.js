@@ -20,6 +20,7 @@ function setupLightning(callback) {
 	var appName = config.loApp;
 	var oauth = force.getOauth();
 	console.log('AUTH >'+oauth);
+	console.log('AUTH >'+JSON.stringify(oauth));	
     if (!oauth) {
         alert("Please login to Salesforce.com first!");
         return;
