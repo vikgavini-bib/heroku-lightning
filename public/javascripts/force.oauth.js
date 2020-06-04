@@ -8,8 +8,8 @@ var force = (function () {
 
     // The login url
     //var loginUrl = 'https://login.salesforce.com',
-    //var loginUrl = 'https://pocmobile-sgws.cs97.force.com/myProof',
-    var loginUrl = 'https://sgwsteam--pocmobile.my.salesforce.com',
+    var loginUrl = 'https://pocmobile-sgws.cs97.force.com/myProof',
+    //var loginUrl = 'https://sgwsteam--pocmobile.my.salesforce.com',
 
     // The instance url, needed until pattern for my domains, etc. is determined
         instanceUrl = null,
